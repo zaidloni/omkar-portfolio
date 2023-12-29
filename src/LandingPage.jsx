@@ -1,11 +1,12 @@
 import { useState } from "react";
 import IMAGES from "./assets";
+import { Link } from "react-router-dom";
 const LandingPage = () => {
   const [activeSection, setActiveSection] = useState("home");
   return (
     <main id="home" className="bg-[#252535]">
       {/* Hero Section */}
-      <section className="flex items-center h-[100vh]">
+      <section className="flex items-center h-[100vh] border border-white">
         {/* Left */}
         <div className="flex-1 flex flex-col items-center">
           {/* Hello  */}
@@ -47,7 +48,9 @@ const LandingPage = () => {
         </div>
         <div className="flex gap-11 mt-11 justify-center">
           <img src={IMAGES.DelicisoUI} alt="deliciso UI" />
-          <img src={IMAGES.WheelUpUI} alt="wheelUp UI" />
+          <Link to="/wheelUp">
+            <img src={IMAGES.WheelUpUI} alt="wheelUp UI" />
+          </Link>
         </div>
       </section>
 
