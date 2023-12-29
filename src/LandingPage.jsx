@@ -43,11 +43,18 @@ const LandingPage = () => {
           Deleniti, sint rerum.
         </p>
         <div className="flex gap-11 justify-center">
-          <img src={IMAGES.NetflixUI} alt="netflix ui" />
-          <img src={IMAGES.AmulUI} alt="amul ui" />
+          <Link to="/netflix">
+            <img src={IMAGES.NetflixUI} alt="netflix ui" />
+          </Link>
+
+          <Link to="/amul">
+            <img src={IMAGES.AmulUI} alt="amul ui" />
+          </Link>
         </div>
         <div className="flex gap-11 mt-11 justify-center">
-          <img src={IMAGES.DelicisoUI} alt="deliciso UI" />
+          <Link to="/deliciosso">
+            <img src={IMAGES.DelicisoUI} alt="deliciso UI" />
+          </Link>
           <Link to="/wheelUp">
             <img src={IMAGES.WheelUpUI} alt="wheelUp UI" />
           </Link>
@@ -83,6 +90,7 @@ const LandingPage = () => {
         </p>
 
         <div className="flex gap-12 mt-16">
+          {/* LivNest Exp */}
           <div className="px-8 py-6 bg-[#282626] flex gap-7">
             <img src={IMAGES.UnderdogsLogo} alt="company logo" />
             <div>
@@ -97,13 +105,16 @@ const LandingPage = () => {
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
                 quo illum tenetur rem neque doloribus ducimus non, ea natus quis
                 possimus tempore vero qui, culpa dolore id animi at accusamus.
-                <span className="text-[#FFAD28] font-semibold text-lg cursor-pointer">
-                  see more
-                </span>
+                <Link to="/livnest">
+                  <span className="text-[#FFAD28] font-semibold text-lg cursor-pointer">
+                    see more
+                  </span>
+                </Link>
               </p>
             </div>
           </div>
 
+          {/* Underdogs Exp */}
           <div className="px-8 py-6 bg-[#282626] flex gap-7">
             <img src={IMAGES.UnderdogsLogo} alt="company logo" />
             <div>
@@ -118,9 +129,11 @@ const LandingPage = () => {
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
                 quo illum tenetur rem neque doloribus ducimus non, ea natus quis
                 possimus tempore vero qui, culpa dolore id animi at accusamus.
-                <span className="text-[#FFAD28] font-semibold text-lg cursor-pointer">
-                  see more
-                </span>
+                <Link to="/underdogs">
+                  <span className="text-[#FFAD28] font-semibold text-lg cursor-pointer">
+                    see more
+                  </span>
+                </Link>
               </p>
             </div>
           </div>

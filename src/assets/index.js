@@ -23,8 +23,21 @@ import W5 from "./W5.svg";
 import W6 from "./W6.svg";
 import W7 from "./W7.svg";
 import W8 from "./W8.svg";
+import F1 from "./F1.svg";
+import F2 from "./F2.svg";
+import F3 from "./F3.svg";
+import F4 from "./F4.svg";
+import N1 from "./N1.svg";
+import N2 from "./N2.svg";
+import N3 from "./N3.svg";
+import N4 from "./N4.svg";
+import N5 from "./N5.svg";
+import N6 from "./N6.svg";
+import BG from "./bgred.svg";
+import NetflixBg from "./NetflixBg.svg"
 
 const IMAGES = {
+  NetflixBg,
   W1,
   W2,
   W3,
@@ -33,6 +46,17 @@ const IMAGES = {
   W6,
   W7,
   W8,
+  F1,
+  F2,
+  F3,
+  F4,
+  N1,
+  N2,
+  N3,
+  N4,
+  N5,
+  N6,
+  BG,
   WheelUp,
   Line,
   Home,
