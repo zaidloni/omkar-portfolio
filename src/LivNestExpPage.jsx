@@ -63,7 +63,7 @@ const LivNestExpPage = () => {
       </div>
 
       <div className="flex gap-16 mt-12 justify-center">
-        <img src={IMAGES.L3} alt="l3" />
+        <img src={IMAGES.L3} alt="l3" className="w-[225px]h-[225px]"/>
         <img src={IMAGES.L4} alt="l4" />
         <img src={IMAGES.L5} alt="l5" />
         <img src={IMAGES.L6} alt="l6" />

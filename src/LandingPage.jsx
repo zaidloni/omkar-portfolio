@@ -44,19 +44,19 @@ const LandingPage = () => {
         </p>
         <div className="flex gap-11 justify-center">
           <Link to="/netflix">
-            <img src={IMAGES.NetflixUI} alt="netflix ui" />
+            <img loading="lazy" src={IMAGES.NetflixUI} alt="netflix ui" />
           </Link>
 
           <Link to="/amul">
-            <img src={IMAGES.AmulUI} alt="amul ui" />
+            <img loading="lazy" src={IMAGES.AmulUI} alt="amul ui" />
           </Link>
         </div>
         <div className="flex gap-11 mt-11 justify-center">
           <Link to="/deliciosso">
-            <img src={IMAGES.DelicisoUI} alt="deliciso UI" />
+            <img loading="lazy" src={IMAGES.DelicisoUI} alt="deliciso UI" />
           </Link>
           <Link to="/wheelUp">
-            <img src={IMAGES.WheelUpUI} alt="wheelUp UI" />
+            <img loading="lazy" src={IMAGES.WheelUpUI} alt="wheelUp UI" />
           </Link>
         </div>
       </section>
@@ -92,7 +92,7 @@ const LandingPage = () => {
         <div className="flex gap-12 mt-16">
           {/* LivNest Exp */}
           <div className="px-8 py-6 bg-[#282626] flex gap-7">
-            <img src={IMAGES.UnderdogsLogo} alt="company logo" />
+            <img loading="lazy" src={IMAGES.UnderdogsLogo} alt="company logo" />
             <div>
               <p className="text-[26px] font-bold text-white">
                 Livnest Tech Pvt. Ltd.
@@ -116,7 +116,7 @@ const LandingPage = () => {
 
           {/* Underdogs Exp */}
           <div className="px-8 py-6 bg-[#282626] flex gap-7">
-            <img src={IMAGES.UnderdogsLogo} alt="company logo" />
+            <img loading="lazy" src={IMAGES.UnderdogsLogo} alt="company logo" />
             <div>
               <p className="text-[26px] font-bold text-white">
                 Livnest Tech Pvt. Ltd.
@@ -168,7 +168,7 @@ const LandingPage = () => {
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
           >
-            <g clip-path="url(#clip0_63_28)">
+            <g clipPath="url(#clip0_63_28)">
               <path
                 d="M6.08829 0H16.9117C18.5264 0 20.075 0.641443 21.2168 1.78322C22.3586 2.925 23 4.47358 23 6.08829V16.9117C23 18.5264 22.3586 20.075 21.2168 21.2168C20.075 22.3586 18.5264 23 16.9117 23H6.08829C4.47358 23 2.925 22.3586 1.78322 21.2168C0.641443 20.075 0 18.5264 0 16.9117L0 6.08829C0 4.47358 0.641443 2.925 1.78322 1.78322C2.925 0.641443 4.47358 0 6.08829 0ZM13.5202 6.62496H12.626V13.0477C12.6347 13.5334 12.515 14.0127 12.2791 14.4373C12.0491 14.8436 11.708 15.1752 11.2968 15.3956C10.8723 15.6295 10.3768 15.7454 9.80854 15.7454C9.24121 15.7454 8.74671 15.6295 8.32312 15.3966C7.91289 15.1751 7.57293 14.8431 7.34179 14.4382C7.10425 14.0142 6.98354 13.5347 6.992 13.0487V6.624H6.09787V13.109C6.08714 13.7356 6.24929 14.353 6.5665 14.8935C6.87988 15.4177 7.33125 15.846 7.87175 16.1316C8.4295 16.4345 9.07542 16.5859 9.80854 16.5859C10.5455 16.5859 11.1924 16.4354 11.7482 16.1345C12.2881 15.8489 12.739 15.4202 13.0515 14.8954C13.3678 14.3539 13.5307 13.7358 13.5211 13.109V6.62496H13.5202ZM17.0162 16.4191V6.62592H16.122V16.4201H17.0162V16.4191Z"
                 fill={activeSection == "ui" ? "#FFAD28" : "#585A68"}
