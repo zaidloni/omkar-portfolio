@@ -6,7 +6,7 @@ const LandingPage = () => {
   return (
     <main id="home" className="bg-[#252535]">
       {/* Hero Section */}
-      <section className="flex items-center h-[100vh] border border-white">
+      <section className="flex items-center h-[100vh] ">
         {/* Left */}
         <div className="flex-1 flex flex-col items-center">
           {/* Hello  */}

@@ -34,9 +34,39 @@ import N4 from "./N4.svg";
 import N5 from "./N5.svg";
 import N6 from "./N6.svg";
 import BG from "./bgred.svg";
-import NetflixBg from "./NetflixBg.svg"
+import NetflixBg from "./NetflixBg.svg";
+import U1 from "./U1.svg";
+import U2 from "./U2.svg";
+import U3 from "./U3.svg";
+import U4 from "./U4.svg";
+import U5 from "./U5.svg";
+import L1 from "./L1.svg";
+import L2 from "./L2.svg";
+import L3 from "./L3.svg";
+import L4 from "./L4.svg";
+import L5 from "./L5.svg";
+import L6 from "./L6.svg";
+import L7 from "./L7.svg";
+import L8 from "./L8.svg";
+import L9 from "./L9.svg";
+import L10 from "./L10.svg";
 
 const IMAGES = {
+  L1,
+  L2,
+  L3,
+  L4,
+  L5,
+  L6,
+  L7,
+  L8,
+  L9,
+  L10,
+  U1,
+  U2,
+  U3,
+  U4,
+  U5,
   NetflixBg,
   W1,
   W2,
