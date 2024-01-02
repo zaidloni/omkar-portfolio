@@ -33,7 +33,7 @@ import N3 from "./N3.webp";
 import N4 from "./N4.webp";
 import N5 from "./N5.webp";
 import N6 from "./N6.webp";
-import BG from "./bgred.svg";
+import BG from "./bgRed.svg";
 import NetflixBg from "./NetflixBg.webp";
 import U1 from "./U1.webp";
 import U2 from "./U2.webp";
